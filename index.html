@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lawyer Project</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="main_navbar">
+        <div class="d-flex">
+            <div class="headerLeft">
+                <h1 class="headerRight-title">Justice</h1>
+            </div>
+            <div class="headerRight container-fluid ">
+                <div class="headerRight-top container d-flex justify-content-between align-items-center">
+                    <div class="headerRight-top-left">
+                        <ul class="topRight-nav container d-flex ">
+                            <li>
+                                <span><i class="bi bi-envelope"></i> :</span>
+                                <a>mail@domain.com</a>
+                            </li>
+                            <li>
+                                <span><i class="bi bi-telephone-forward"></i> :</span>
+                                <a>+012 345 6789</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="headerRight-top-right">
+                        <ul class="topLeft-nav container d-flex">
+                            <li>
+                                <a>
+                                    <i class="bi bi-facebook" style="font-size: 24px"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a><i class="bi bi-twitter" style="font-size: 24px"></i></a>
+                            </li>
+                            <li>
+                                <a>
+
+                                    <i class="bi bi-linkedin" style="font-size: 24px"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+
+                                    <i class="bi bi-whatsapp" style="font-size: 24px"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="headerRight-bottom container d-flex justify-content-between">
+                    <div class="headerRight-bottom-left">
+                        <div class="headerRight-bottom-nav">
+                            <ul class="bottomLeft-nav container d-flex justify-content-between">
+                                <li>
+                                    <a>Home</a>
+                                </li>
+                                <li>
+
+                                    <a>About</a>
+                                </li>
+                                <li>
+
+                                    <a>practice</a>
+                                </li>
+                                <li>
+                                    <a>Attoreys</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="headerRight-bottom-right">
+                        <button type="button" class="btn btn-dark">Get A Quotes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger-y">
+                <i class="bi bi-list" style="font-size: 2rem;"></i>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <section
+        style="background-image:url(img/giammarco-zeH-ljawHtg-unsplash\ \(1\).jpg); background-position: center center; background-size: cover; background-repeat: no-repeat; padding: 50px 0; height: 100vh;">
+        <!-- multistep form -->
+        <div class="responsive-nav">
+            <div class="hamburger-x" id="hamburger-x">
+                <i class="bi bi-x-circle"></i>
+            </div>
+            <div class="nav-bottom-left">
+                <div class="nav-bottom-nav">
+                    <ul class="navLeft-nav">
+                        <li>
+                            <a>Home</a>
+                        </li>
+                        <li>
+
+                            <a>About</a>
+                        </li>
+                        <li>
+
+                            <a>practice</a>
+                        </li>
+                        <li>
+                            <a>Attoreys</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navRight-bottom-right">
+                <button type="button" class="btn btn-dark">Get A Quotes</button>
+            </div>
+        </div>
+        <form id="msform">
+            <!-- progressbar -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div style="text-align: center;">
+                            <h6 style="font-size: 24px;">Create Account</h6>
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jatin">
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Adhikari">
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                placeholder="+91XXXXXX">
+                        </div>
+                        <div style="text-align: end;">
+                            <div class="next-form">
+                                <button type="button" class="btn btn-dark pr-4 ">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div style="text-align: center;">
+                            <h6 style="font-size: 24px;">Personal Information</h6>
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">Confrim password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="prev-form">
+                                <button type="button" class="btn btn-dark pr-4 ">previous</button>
+                            </div>
+                            <div class="next-form">
+                                <button type="button" class="btn btn-dark pr-4 ">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div style="text-align: center;">
+                            <h6 style="font-size: 24px;">Submit</h6>
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="prev-form">
+                                <button type="button" class="btn btn-dark pr-4 ">previous</button>
+                            </div>
+                            <button type="button" class="btn btn-dark pr-4">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- <div class="t"></div>
+            <div class=""></div> -->
+        </form>
+    </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#hamburger-y").click(function () {
+            $(".responsive-nav").addClass("responsive-nav-b");  
+        });
+        $("#hamburger-x").click(function () {
+            $(".responsive-nav").removeClass("responsive-nav-b");  
+        });
+    });
+    var swiper = new Swiper(".mySwiper", {
+        effect: "flip",
+        grabCursor: true,
+        cubeEffect: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+        },
+
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        navigation: {
+            nextEl: ".next-form",
+            prevEl: ".prev-form",
+        },
+    });
+</script>
+
+</html>

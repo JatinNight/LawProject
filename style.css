@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_navbar {
+    background-color: lightgrey;
+}
+
+.headerLeft {
+    flex: 0.2;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerRight {
+    flex: 0.8;
+}
+
+.headerRight-top {
+    margin-top: 10px;
+}
+
+
+
+.topRight-nav>ul {
+    margin: auto;
+}
+
+.topLeft-nav>ul {
+    margin: auto;
+}
+
+.topRight-nav>li {
+    list-style: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.topLeft-nav>li {
+    list-style: none;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.topLeft-nav>li>i {
+    font-size: 10px;
+}
+
+
+.headerRight-bottom-left {
+    flex: 0.6;
+}
+
+.bottomLeft-nav {
+    list-style: none;
+}
+
+.bottomLeft-nav>li {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bottomLeft-nav>li:hover {
+    color: gold;
+}
+
+.swiper {
+    max-width: 350px;
+    padding: 10px;
+    color: white;
+
+    margin: auto;
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger-x {
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.responsive-nav {
+    display: none;
+}
+
+.responsive-nav-b {
+    display: block;
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    top: 5px;
+    right: 0;
+    transition: 0.3s;
+    /* height: 100vh; */
+    z-index: 997;
+}
+
+.navLeft-nav {
+    margin-top: 10px;
+}
+
+.navLeft-nav>li {
+    list-style: none;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.navLeft-nav>li:hover{
+    color: green;
+}
+
+.navRight-bottom-right {
+    margin: 20px;
+}

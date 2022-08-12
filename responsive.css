@@ -1,0 +1,15 @@
+@media only screen and (max-width: 900px) {
+    .headerLeft{
+        flex: 1;
+    }
+    .headerRight{
+        display: none;
+    }
+    .hamburger{
+        background-color: black;
+        display: block;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+    }
+  }
