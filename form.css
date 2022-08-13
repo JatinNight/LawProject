@@ -4,5 +4,27 @@
 
 
 
+#msform{
+    /* background-color: black; */
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+}
+
+.select1-1{
+    display: none;
+}
+
+.select1-2{
+    display: none;
+}
+
+.forCheque{
+    display: none;
+}
+.forCheque-open{
+    display: block;
+}
+
 
 
