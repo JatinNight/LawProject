@@ -18,6 +18,40 @@
 .select1-2{
     display: none;
 }
+.select1-3{
+    display: none;
+}
+/* Partners */
+.partners{
+    display:none
+}
+.select2-1{
+    display: none;
+}
+.select2-2{
+    display: none;
+}
+.select2-3{
+    display: none;
+}
+.partners{
+    display:none
+}
+.hiddenClear{
+    display:none;
+}
+/* Partners End */
+/* Director */
+
+.select3-1{
+    display: none;
+}
+.select3-2{
+    display: none;
+}
+.select3-3{
+    display: none;
+}
 
 .forCheque{
     display: none;
