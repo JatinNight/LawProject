@@ -259,7 +259,81 @@ $(document).ready(function () {
         $('.directors').css('display','none');
         $('.directors').empty();
         $('.hiddenClear').css('display','none')
-    })                                                                                                                                                                        
+    })     
+    
+    $('#form-cheque').change(function(){
+      $('.hiddenCheckList').css('display','block')
+      var list = this.value;
+      for (let index = 0; index <  Number(list)-1; index++) {
+        $('.chequeList').append(`
+        <div class="col p-4 col-sm-12 col-md-12 mb-4 chequeForm">
+        <div class="m-2">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Total Amount</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder=" Total cheque(s) amount Rs"
+          />
+        </div>
+        <div class="m-4" align="center">
+          <h3> Details Of Cheque</h3>
+        </div>
+        <div class="m-2">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Cheque Number</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="XXXX234234234"
+          />
+        </div>
+        <div class="m-2">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Cheque Date</label
+          >
+          <input
+            type="date"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="2/2/2022"
+          />
+        </div>
+        <div class="m-2">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Cheque drawn ?</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Cheque drawn on"
+          />
+        </div>
+        <div class="m-2">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Cheque drawn ?</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Cheque drawn in favour of"
+          />
+        </div>
+      </div>
+        `)
+      }
+      $('.showChequeList').css('display','block')
+    })
+    $('.hiddenCheckList').click(function(){
+      $('.chequeList').empty();
+      $(this).css('display','none')
+    })
 });
 var swiper = new Swiper(".mySwiper", {
     effect: "flip",

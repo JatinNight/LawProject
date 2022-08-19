@@ -60,5 +60,14 @@
     display: block;
 }
 
+.chequeForm{
+    background: cadetblue;
+    border: 2px;
+    border-radius: 10px;
+}
 
+
+.hiddenCheckList{
+    display:none
+}
 
