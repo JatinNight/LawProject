@@ -264,7 +264,8 @@ $(document).ready(function () {
     $('#form-cheque').change(function(){
       $('.hiddenCheckList').css('display','block')
       var list = this.value;
-      for (let index = 0; index <  Number(list)-1; index++) {
+      $('.chequeList').empty();
+      for (let index = 0; index <  Number(list); index++) {
         $('.chequeList').append(`
         <div class="col p-4 col-sm-12 col-md-12 mb-4 chequeForm">
         <div class="m-2">
