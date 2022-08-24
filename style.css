@@ -87,7 +87,17 @@ body{
     margin-top: 10px;
 }
 
+.img-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
 
 .topRight-nav>ul {
     margin: auto;
@@ -189,6 +199,71 @@ body{
 
 .navRight-bottom-right {
     margin: 20px;
+}
+
+/* Footer */
+
+.style-footer{
+    background-color: #0e0b14;
+    color: white;
+}
+
+.subcribeLabel{
+    background: #fff;
+    border: 1px solid rgba(65,65,65,.2);
+    border-radius: 8px;
+    height: 56px;
+    max-width: 348px;
+}
+
+.newsletterDesc {
+    color: #7b7e8a;
+    font-family: Inter,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0 48px;
+    /* width: 429px; */
+}
+.newsletter_button_new {
+    background: #0e0b14;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: Inter,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    height: 54px;
+    padding:10px;
+    max-width: 120px;
+    cursor: pointer;
+}
+.emailNew {
+    border: none;
+    padding-left: 20px;
+    /* text-align: left; */
+    border-radius: 8px;
+    font-size: 16px;
+    height: 53px;
+    /* width: 225px; */
+}
+
+.footerRight >ul >li{
+    /* height: 28px; */
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footerRight>ul>li>a{
+   color: #fff;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    /* position: relative; */
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 11px;
 }
 
 

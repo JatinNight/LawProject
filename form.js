@@ -267,7 +267,7 @@ $(document).ready(function () {
       $('.chequeList').empty();
       for (let index = 0; index <  Number(list); index++) {
         $('.chequeList').append(`
-        <div class="col p-4 col-sm-12 col-md-12 mb-4 chequeForm">
+        <div class="col p-4 col-sm-12 col-md-12 mb-4 chequeForm bg-light">
         <div class="m-2">
           <label for="exampleFormControlInput1" class="form-label"
             >Total Amount</label
