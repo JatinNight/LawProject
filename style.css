@@ -20,7 +20,7 @@ body{
 .nav-list>li{
     padding:0 10px;
     color: #6d6d6d;
-    font-family: satoshiregular;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: 400;
     /* height: 72px; */
@@ -30,7 +30,7 @@ body{
 .nav-header{
     text-align: center;
     color: #6d6d6d;
-    font-family: satoshiregular;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: 400;
     /* height: 72px; */
@@ -260,7 +260,7 @@ body{
 }
 .footerRight>ul>li>a{
    color: #fff;
-    font-family: Inter,sans-serif;
+   font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;

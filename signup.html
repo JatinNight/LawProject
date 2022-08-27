@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -14,101 +20,204 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div
-      class="container"
-      style="max-width: 500px; margin-top: 20px; padding: 30px"
-    >
-      <div class="login-header m-2" align="center">
-        <h2>Sign Up</h2>
-      </div>
-      <form>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >First Name</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-           
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Last Name</label
-            >
-            <input
-              type="text"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-          </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
+    <div class="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand nav-header" align="center" href="#">Law</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-          <div id="emailHelp" class="form-text">
-            We'll never share your email with anyone else.
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav nav-list">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-          />
-        </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
-      </form>
+      </nav>
     </div>
+    <div class="container-fluid p-4">
+      <div
+        class="container"
+        style="max-width: 500px; margin: auto; padding: 30px"
+      >
+        <div class="login-header" align="left">
+          <p class="display-5">Sign Up</p>
+          <p class="text-info">
+            Already a Member
+            <span class="h6 text-primary"
+              ><a href="#" style="cursor: pointer">Login</a></span
+            >
+          </p>
+        </div>
+        <form>
+          <div class="row gx-4 gy-4">
+            <div class="col-12 col-md-6">
+              <label for="exampleInputEmail1" class="form-label text-left"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="exampleInputEmail1" class="form-label"
+                >Phone Number</label
+              >
+              <input
+                type="Number"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="col-12 col-md-12">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text text-primary">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="col-12 col-md-12">
+              <label for="exampleInputPassword1" class="form-label"
+                >State</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="col-12">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="col-12">
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-block">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="text-center text-lg-start style-footer p-2">
+      <!-- Grid container -->
+      <div class="container p-2">
+        <!--Grid row-->
+        <div class="row gy-4">
+          <!--Grid column-->
+          <div class="col-md-6 col-12">
+            <div class="footerLeft-header">
+              <h4 class="text-uppercase">
+                Law Create
+                <span style="color: #ed8b35"> Get Ready</span>
+              </h4>
+            </div>
+            <div class="footerLeft-bottom">
+              <div class="leftHead">
+                <p class="newsletterDesc">
+                  Our weekly expert newsletter on stories that matter to your
+                  money.
+                </p>
+              </div>
+              <div class="subcribeForm">
+                <form>
+                  <label for="mce-Email" class="subcribeLabel">
+                    <input
+                      type="email"
+                      name="EMAIL"
+                      id="mce-EMAIL"
+                      placeholder="Email address"
+                      autocapitalize="off"
+                      autocorrect="off"
+                      class="required emailNew"
+                      value
+                    />
+                    <input
+                      type="submit"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      class="newsletter_button_new"
+                      value="Subscribe"
+                    />
+                  </label>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 col-12">
+            <div
+              class="footerRight d-flex justify-content-evenly align-items-center"
+            >
+              <ul class="listLeft">
+                <li><a>Home</a></li>
+                <li><a>Contact us</a></li>
+                <li><a>Services</a></li>
+              </ul>
+              <ul class="listRight">
+                <li><a>Return & CANCELLATION</a></li>
+                <li><a>TERMS & DISCLOSURE</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-dark" href="#">Law</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   </body>
 </html>
