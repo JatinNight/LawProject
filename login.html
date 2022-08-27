@@ -60,37 +60,78 @@
         </div>
       </nav>
     </div>
-    <div
-      class="container"
-      style="max-width: 500px; margin-top: 20px; padding: 30px"
-    >
-      <div class="login-header m-2" align="center">
-        <h2>Login</h2>
+    <div class="container" style="max-width: 500px; padding: 30px">
+      <div class="login-header" align="left">
+        <p class="display-4">Login</p>
       </div>
       <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-          <div id="emailHelp" class="form-text">
-            We'll never share your email with anyone else.
+        <div class="row gx-4 gy-4 align-items-center py-4">
+          <div class="withPass">
+            <div class="col-12 col-md-12">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="col-12 col-md-12">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+          </div>
+          <div class="withOtp">
+            <div class="col-12 col-md-12">
+              <label for="exampleInputEmail2" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail2"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-4">
+            <button type="submit" class="btn btn-primary" id="textChange">Login</button>
+          </div>
+          <div class="col-8 col-md-8">
+            <p class="h6 text-end hiddenOtp">
+              Sign With OTP ?
+              <span
+                class="text-primary display-6"
+                id="hiddenOtp"
+                style="cursor: pointer"
+                >Yes</span
+              >
+            </p>
+            <p class="h6 text-end hiddenPassword">
+              Sign With Password ?
+              <span
+                class="text-primary display-6"
+                id="hiddenPass"
+                style="cursor: pointer"
+                >Yes</span
+              >
+            </p>
           </div>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-          />
-        </div>
-        <button type="submit" class="btn btn-primary">Login</button>
       </form>
     </div>
     <footer class="text-center text-lg-start style-footer p-2">
@@ -170,4 +211,13 @@
       <!-- Copyright -->
     </footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="login.js"></script>
 </html>

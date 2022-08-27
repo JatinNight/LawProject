@@ -270,6 +270,20 @@ body{
     top: 11px;
 }
 
+/* LOGIN CSS */
+.withPass{
+    display: block;
+}
+.withOtp{
+    display: none;
+}
+.otpLogin{
+    display: none;
+}
+
+.hiddenPassword{
+    display: none;
+}
 
 
 
